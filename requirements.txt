@@ -12,9 +12,9 @@ build
 ninja
 
 # torch dependency
---extra-index-url=https://download.pytorch.org/whl/xpu
-torch==2.10.0+xpu
-triton-xpu
+# --extra-index-url=https://download.pytorch.org/whl/xpu
+# torch==2.10.0+xpu
+# triton-xpu
 # may need oneapi packages
 
 # tests
@@ -23,4 +23,4 @@ pytest
 # dependencies
 matplotlib # in benchmark, introduced by triton
 pandas # in benchmark, introduced by triton
-transformers # for model config
+# transformers # for model config
